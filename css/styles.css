@@ -26,8 +26,10 @@ body {
 .link {
     text-decoration: none;
     font-style: normal;
+    color: currentColor;
 }
 
+/* Studio styles */
 /* Header styles */
 
 .header-logo {
@@ -91,14 +93,57 @@ body {
     color: var(--secondary-text-color);
     font-size: 16px;
     font-weight: 700;
-    line-height: 1,87;
+    line-height: 1.87;
     letter-spacing: 0.96px;
     border: none;
+    cursor: pointer;
 }
 
 /* Advantages styles */
 
+.advantage-title {
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
+.advantage-desc {
+    color: var(--description-text-color);
+    line-height: 1.71; 
+}
+
+/* Skils styles */
+
+.skils-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+}
+
+/* Team styles */
+
+.team {
+    background-color: var(--background-color-light);
+}
+
+.team-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+}
+
+.team-member {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.team-member-desc {
+    color: var(--description-text-color);
+    text-align: center;
+    font-size: 16px;
+}
 
 /* Footer styles */
 
@@ -120,6 +165,60 @@ body {
     letter-spacing: 0.42px;
 }
 
+.map-link:hover,
+.map-link:focus {
+    color: var(--accent-color);
+}
+
 .footer .contact-link {
     color: rgba(255, 255, 255, 0.60);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color);
+}
+
+/* Portfolio styles */
+
+/* Buttons styles */
+
+.button {
+    background-color: var(--background-color-light); 
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--accent-color);
+}
+
+/* Projects styles */
+
+.progect-name {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 1.08px;
+}
+
+.progect-name:hover,
+.progect-name:focus {
+    color: var(--accent-color);
+}
+
+.progect-type {
+    color: var(--description-text-color);
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+.progect-type:hover,
+.progect-type:focus {
+    color: var(--accent-color);
 }
