@@ -18,9 +18,6 @@ body {
     font-family: var(--text-font);
     color: var(--main-text-color);
     background-color: var(--main-background-color);
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.42px;
 }
 
 .visually-hidden {
@@ -64,6 +61,8 @@ body {
 .header-link {
     color: var(--main-text-color);
     font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
     letter-spacing: 0.28px;
 }
 
@@ -75,6 +74,8 @@ body {
 .contact-link {
     color: var(--description-text-color);
     font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
     letter-spacing: 0.28px;
 }
 
@@ -119,21 +120,27 @@ body {
 /* Advantages styles */
 
 .advantage-title {
+    font-size: 14px;
     font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.42px;
     text-transform: uppercase;
 }
 
 .advantage-desc {
     color: var(--description-text-color);
-    line-height: 1.71; 
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
 }
 
 /* Skils styles */
-
+ 
 .skils-title {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
+    line-height: 1.2;
     letter-spacing: 1.08px;
 }
 
@@ -147,6 +154,7 @@ body {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
+    line-height: 1.2;
     letter-spacing: 1.08px;
 }
 
@@ -154,12 +162,16 @@ body {
     text-align: center;
     font-size: 16px;
     font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.48px;
 }
 
 .team-member-desc {
     color: var(--description-text-color);
     text-align: center;
     font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.48px;
 }
 
 /* Footer styles */
@@ -182,6 +194,7 @@ body {
 
 .map-link {
     color: var(--secondary-text-color);
+    font-size: 14px;
     line-height: 1.71px;
     letter-spacing: 0.42px;
 }
@@ -193,6 +206,7 @@ body {
 
 .footer .contact-link {
     color: rgba(255, 255, 255, 0.60);
+    font-weight: 400;
 }
 
 .contact-link:hover,
@@ -210,6 +224,7 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.62;
+    letter-spacing: 0.48px;
     border: none;
     cursor: pointer;
 }
@@ -217,6 +232,7 @@ body {
 .button:hover,
 .button:focus {
     background-color: var(--accent-color);
+    color: var(--secondary-text-color);
 }
 
 .active-button {
@@ -242,6 +258,7 @@ body {
     color: var(--description-text-color);
     font-size: 16px;
     line-height: 1.87;
+    letter-spacing: 0.48px;
 }
 
 .progect-type:hover,
